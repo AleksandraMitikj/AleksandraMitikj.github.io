@@ -1,0 +1,232 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 1718px;
+}
+nav{
+  width: 1718px;
+  background-color: rgb(143, 13, 32);
+  margin-top: -18px;
+}
+.nav_ul{
+  width: 30%;/*prostor pomegju zborovi*/
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  margin-left: 5%;
+}
+li {
+  display: inline;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color: indianred;
+  text-decoration: underline;
+  padding: 5px 15px;
+}
+.str1{
+  background-image: url("../img/skijanje1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 1718px;
+  height: 700px;
+  margin-top: -15px;
+}
+.naslov_home{
+  display: flex;
+  justify-content: center;
+  color: black;
+  float: right;
+  font-size: 30px;
+  font-style: italic;
+  margin-top: -600px;
+  margin-right: 200px;
+}
+.tekst{
+  margin-top: -480px;
+  float: right;
+  margin-right: 300px;
+  font-size: 28px;
+}
+footer{
+  background-color: rgb(143, 13, 32);
+  color: white;
+  margin: 20px 5px;
+  padding-left: 30px;
+}
+.naslov_bio {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-size: 20px;
+  margin-bottom: -10px;
+}
+
+.centar_bio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+}
+.slika_levo, .slika_desno {
+  flex: 1;
+}
+.slika_levo img, .slika_desno img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 0;
+  flex-wrap: wrap;
+  border: rgb(143, 13, 32) 2px solid;
+  padding: 5px 5px;
+}
+.slika_levo{
+  margin-right: 20px;
+}
+.tekst_bio {
+  flex: 2;
+  padding: 0 40px;
+  font-size: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border:  rgb(143, 13, 32) 2px solid;
+}
+.tekst_bio p {
+  margin-bottom: 20px;
+}
+.tekst_edu {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 30px;
+  font-size: 25px;
+  text-align: justify;
+}
+.naslov_edu h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.tekst_edu {
+  text-align: justify;
+}
+.srednja, .faks {
+  margin: 30px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+.srednja h3, .faks h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+p {
+  margin: 0 30px;
+  font-size: 20px;
+}
+@media (min-width: 768px) {
+  .tekst_edu {
+    display: flex;
+    justify-content: space-between;
+  }
+  .srednja, .faks {
+    flex: 1;
+    margin: 20px;
+  }
+}
+.mini_galerija > h1 {
+  justify-content: center;
+  text-align: center;
+}
+
+.slike {
+  display: grid;
+  grid-template-columns: repeat(3, 10fr);
+  gap: 50px;
+  max-width:1200px;
+  margin: 0 auto;
+
+}
+.slike img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 15%;
+  justify-content: space-between;
+  border:  rgb(143, 13, 32) 5px solid;
+}
+.trofej{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.dve_sl{
+  display: flex;
+  justify-content: center;
+}
+.dve_sl img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 15%;
+  justify-content: space-between;
+  border:  rgb(143, 13, 32) 5px solid;
+  margin: 20px 10px;
+}
+.boo {
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+}
+h1, h2, h3 {
+  margin: 20px 0;
+  text-align: center;
+}
+.baloncinja h3 {
+  justify-content: center;
+  align-items: center;
+}
+.baloncinja {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 10px;
+  width: 1700px;
+  height: 200px;
+  margin-left: -450px;
+}
+.baloncinja p {
+  border:  rgb(143, 13, 32) 3px solid;
+  background-color: #fff;
+  border-radius: 20%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+  font-size: 20px;
+  overflow-wrap: break-word;
+}
+.boking {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 100px 150px;
+  margin-right: 200px;
+}
+.boking1 {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
